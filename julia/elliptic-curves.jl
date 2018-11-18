@@ -1,4 +1,4 @@
-
+# Basic manipulation of points on an elliptic curve
 
 mutable struct EllipticCurve
     a1
@@ -69,4 +69,3 @@ l = lcm(denominator(sa),denominator(sb),denominator(sc))
 println(numerator(sa*l))
 println(numerator(sb*l))
 println(numerator(sc*l))
-
